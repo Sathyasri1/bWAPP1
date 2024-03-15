@@ -5,5 +5,5 @@ SAST:
  language: "php" 
 DAST:
   type: "WEB" ## API, dWEB, WEB-ADV
-  URL: "http://testfire.net/"
+  URL: "https://bwapp.hakhub.net/login.php"
   #auth: "yes"
