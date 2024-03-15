@@ -6,4 +6,4 @@ SAST:
 DAST:
   type: "WEB" ## API, dWEB, WEB-ADV
   URL: "https://bwapp.hakhub.net/login.php"
-  #auth: "yes"
+  auth: "yes"
