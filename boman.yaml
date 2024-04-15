@@ -7,7 +7,7 @@ SAST:
 DAST:
   type: "WEB" ## API, dWEB, WEB-ADV
   URL: "https://bwapp.hakhub.net/"
-  auth: "yes"
+  #auth: "yes"
   
 SCA:
  language: "js"
