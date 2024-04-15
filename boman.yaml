@@ -1,9 +1,15 @@
 Auth:
-  project_token: "693f98fb-c734-459d-a970-7bc1c9ad40be"
-  customer_token: "70b76e8f-ad96-49b9-ad5d-cf1389168167"
-# SAST:
-#  language: "php" 
+  project_token: "52e58766-e617-44c1-bc5f-cbf075018a75"
+  customer_token: "9f171693-2144-49e9-936b-f0cb5c95a535"
+SAST:
+ language: "semgrep" 
+ 
 DAST:
   type: "WEB" ## API, dWEB, WEB-ADV
   URL: "https://bwapp.hakhub.net/"
   auth: "yes"
+  
+SCA:
+ language: "js"
+
+Secret_Scan: true
